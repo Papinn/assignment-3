@@ -1,0 +1,67 @@
+@media screen and (max-width: 1024px) {
+  .nav-menu a {
+    padding: 16px;
+    display: inline-flex;
+    font-size: 12px;
+    width: max-content;
+  }
+  .nav-center {
+    width: 100px;
+  }
+  .nav-avatar {
+    top: -50px;
+
+    width: 100px;
+  }
+  .resume-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: initial;
+  }
+  #activity {
+    grid-column: 2 /3;
+    grid-row: 1 / 2;
+  }
+  #skills {
+    grid-column: 1/ 2;
+    grid-row: 2/3;
+  }
+  #languages {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .certificate-row .col-md-6 {
+    padding: 0 20px;
+  }
+  .certificate-item {
+    flex-direction: column;
+  }
+
+  .certificate-img {
+    width: 100%;
+  }
+
+  .certificate-item ul {
+    padding: 0;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .data-author {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .project-text {
+    grid-template-columns: 60px auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-center {
+    width: 50px;
+  }
+  .nav-avatar {
+    left: -30px;
+  }
+}
